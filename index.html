@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — Dev</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="cursor"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">LR<span>.Portfolio</span></div>
+  <ul>
+    <li><a href="#about">Sobre mí</a></li>
+    <li><a href="#experience">Experiencia</a></li>
+    <li><a href="#projects">Proyectos</a></li>
+    <li><a href="#tech">Tecnologías</a></li>
+    <li><a href="#education">Estudios</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-blob"></div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow">Desarrollador de Software & Estudiante de Ingeniería</p>
+    <h1 class="hero-title">
+      Hola, soy<br>
+      <em>Lucas.</em>
+    </h1>
+    <p class="hero-sub">
+      Estudiante y desarrollador apasionado por construir
+      cosas reales con código. Enfocado en el frontend,
+      curioso por todo lo demás.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">Ver proyectos →</a>
+      <a href="#about" class="btn btn-outline">Sobre mí</a>
+    </div>
+  </div>
+
+  <!-- FOTO DE PERFIL -->
+  <div class="hero-photo-wrap">
+    <div class="photo-ring">
+      <div class="photo-inner">
+        <img src="assets/foto_perfil.png" alt="Foto de perfil"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CV BAR -->
+<div class="cv-bar">
+  <div class="cv-bar-text">
+    <h3>¿Querés ver mi CV?</h3>
+    <p>Descargá mi CV para conocer más sobre mi experiencia y estudios.</p>
+  </div>
+  <div class="cv-actions">
+    <a href="assets/Lucas_Ruiz_CV_IngSistemas.pdf_2025_11_25.pdf" download class="btn btn-primary">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+        <polyline points="7 10 12 15 17 10"/>
+        <line x1="12" y1="15" x2="12" y2="3"/>
+      </svg>
+      Descargar CV
+    </a>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="sec-header">
+    <span class="sec-num">01</span>
+    <div class="sec-line"></div>
+    <h2 class="sec-title">Sobre mí</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>Soy un <strong>desarrollador web</strong> en crecimiento y <strong>estudiante de Ingeniería en Sistemas</strong>, con ganas de aprender y mejorar cada día. Me especializo en el frontend pero entiendo lo que pasa del otro lado también.</p>
+      <p>Estoy construyendo proyectos personales para ganar experiencia real mientras termino mis estudios. Creo que la mejor manera de aprender es <strong>hacer cosas reales</strong>, aunque no sean perfectas todavía.</p>
+      <p>Busco mi primera oportunidad laboral donde pueda aportar energía, curiosidad y muchas ganas de crecer dentro de un equipo.</p>
+    </div>
+    <div class="about-stats">
+      <div class="stat-card">
+        <div class="stat-val">2+</div>
+        <div class="stat-label">Años aprendiendo</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">4</div>
+        <div class="stat-label">Proyectos propios</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">100%</div>
+        <div class="stat-label">Comprometido</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">∞</div>
+        <div class="stat-label">Ganas de aprender</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="sec-header">
+    <span class="sec-num">02</span>
+    <div class="sec-line"></div>
+    <h2 class="sec-title">Experiencia</h2>
+  </div>
+  <div class="timeline">
+
+    <div class="tl-item">
+      <div class="tl-period">2026</div>
+      <div class="tl-role">Desarrollador Freelance</div>
+      <div class="tl-company">Proyecto personal · Independiente</div>
+      <p class="tl-desc">Solución integral desarrollada en Streamlit para la automatización de agendas. Permite a negocios locales gestionar sus turnos de forma digital, eliminando la carga administrativa manual y mejorando la experiencia del cliente con una interfaz intuitiva y adaptable.</p>
+      <span class="tag">Python</span>
+      <span class="tag">Streamlit</span>
+      <span class="tag">APIs</span>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-period">2025 — Presente</div>
+      <div class="tl-role">Desarrollador Freelance</div>
+      <div class="tl-company">Proyectos personales · Independiente</div>
+      <p class="tl-desc">Desarrollo de sitios web para pequeños emprendimientos del entorno cercano. Diseño, maquetado y despliegue de páginas estáticas y dinámicas.</p>
+      <span class="tag">HTML/CSS</span>
+      <span class="tag">JavaScript</span>
+      <span class="tag">React</span>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-period">2024 - 2025</div>
+      <div class="tl-role">Desarrollador Web</div>
+      <div class="tl-company">Empresa · Q10 Sports</div>
+      <p class="tl-desc">Desarrollo y mantenimiento de la plataforma web de Q10 Sports (Agencia de Representación), enfocada en la exposición digital de futbolistas profesionales mediante HTML y CSS.</p>
+      <span class="tag">GitHub</span>
+      <span class="tag">HTML/CSS</span>
+    </div>
+
+  </div>
+  <div class="exp-note">
+    <strong>Estoy comenzando mi camino profesional.</strong> Si bien mi experiencia formal es limitada,
+    compenso con proyectos personales, aprendizaje constante y mucha motivación.
+    Los proyectos de abajo hablan mejor que cualquier cargo en un CV.
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="sec-header">
+    <span class="sec-num">03</span>
+    <div class="sec-line"></div>
+    <h2 class="sec-title">Proyectos</h2>
+  </div>
+  <div class="projects-grid">
+
+    <div class="proj-card">
+      <div class="proj-thumb">
+        <img src="assets/proyec2.jpg" alt="Preview Proyecto Uno"/>
+      </div>
+      <div class="proj-body">
+        <div class="proj-title">Proyecto Uno</div>
+        <p class="proj-desc">Descripción breve de lo que hace el proyecto, qué problema resuelve y qué aprendiste al hacerlo.</p>
+        <div class="proj-tags">
+          <span class="tag">React</span>
+          <span class="tag">CSS</span>
+          <span class="tag">Firebase</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://tu-demo.vercel.app" target="_blank" rel="noopener" class="proj-link proj-link-demo">
+            <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Ver demo
+          </a>
+          <a href="https://github.com/tu-usuario/repo-uno" target="_blank" rel="noopener" class="proj-link proj-link-github">
+            <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="proj-card">
+      <div class="proj-thumb" style="position:relative">
+        <img src="assets/proyecto1.jpg" alt="Preview Proyecto Dos"/>
+        <span class="proj-badge">WIP</span>
+      </div>
+      <div class="proj-body">
+        <div class="proj-title">Proyecto Dos</div>
+        <p class="proj-desc">Descripción del proyecto. Podés mencionar los desafíos técnicos que tuviste y cómo los resolviste.</p>
+        <div class="proj-tags">
+          <span class="tag">Node.js</span>
+          <span class="tag">Express</span>
+          <span class="tag">MongoDB</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://github.com/tu-usuario/repo-dos" target="_blank" rel="noopener" class="proj-link proj-link-github">
+            <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            Ver en GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="proj-card">
+      <div class="proj-thumb">
+        <img src="assets/proyec3.jpg" alt="Preview Proyecto Tres"/>
+      </div>
+      <div class="proj-body">
+        <div class="proj-title">Proyecto Tres</div>
+        <p class="proj-desc">Otro proyecto tuyo. Incluso proyectos de práctica o de cursos valen si los hiciste con dedicación real.</p>
+        <div class="proj-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://tu-demo.netlify.app" target="_blank" rel="noopener" class="proj-link proj-link-demo">
+            <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Ver demo
+          </a>
+          <a href="https://github.com/tu-usuario/repo-tres" target="_blank" rel="noopener" class="proj-link proj-link-github">
+            <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="proj-card">
+      <div class="proj-thumb">
+        <img src="assets/proyecto4.jpg" alt="Preview Portfolio"/>
+      </div>
+      <div class="proj-body">
+        <div class="proj-title">Este Portfolio</div>
+        <p class="proj-desc">El portfolio que estás viendo también es un proyecto. Diseñado y construido desde cero en HTML, CSS y JS puro.</p>
+        <div class="proj-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">Vanilla JS</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://github.com/tu-usuario/portfolio" target="_blank" rel="noopener" class="proj-link proj-link-github">
+            <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            Ver código fuente
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- TECH -->
+<section id="tech">
+  <div class="sec-header">
+    <span class="sec-num">04</span>
+    <div class="sec-line"></div>
+    <h2 class="sec-title">Tecnologías</h2>
+  </div>
+  <div class="tech-grid">
+    <div class="tech-item" style="--pct:90%"><div class="tech-icon">🌐</div><div class="tech-name">HTML5</div><div class="tech-level"><div class="tech-level-bar"></div></div></div>
+    <div class="tech-item" style="--pct:88%"><div class="tech-icon">🎨</div><div class="tech-name">CSS3</div><div class="tech-level"><div class="tech-level-bar"></div></div></div>
+    <div class="tech-item" style="--pct:80%"><div class="tech-icon">⚡</div><div class="tech-name">JavaScript</div><div class="tech-level"><div class="tech-level-bar"></div></div></div>
+    <div class="tech-item" style="--pct:70%"><div class="tech-icon">⚛️</div><div class="tech-name">React</div><div class="tech-level"><div class="tech-level-bar"></div></div></div>
+    <div class="tech-item" style="--pct:65%"><div class="tech-icon">🟩</div><div class="tech-name">Node.js</div><div class="tech-level"><div class="tech-level-bar"></div></div></div>
+    <div class="tech-item" style="--pct:72%"><div class="tech-icon">🐍</div><div class="tech-name">Python</div><div class="tech-level"><div class="tech-level-bar"></div></div></div>
+    <div class="tech-item" style="--pct:75%"><div class="tech-icon">🐙</div><div class="tech-name">Git</div><div class="tech-level"><div class="tech-level-bar"></div></div></div>
+    <div class="tech-item" style="--pct:60%"><div class="tech-icon">🐘</div><div class="tech-name">SQL</div><div class="tech-level"><div class="tech-level-bar"></div></div></div>
+    <div class="tech-item" style="--pct:55%"><div class="tech-icon">🐳</div><div class="tech-name">Docker</div><div class="tech-level"><div class="tech-level-bar"></div></div></div>
+    <div class="tech-item" style="--pct:68%"><div class="tech-icon">📱</div><div class="tech-name">Responsive</div><div class="tech-level"><div class="tech-level-bar"></div></div></div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="sec-header">
+    <span class="sec-num">05</span>
+    <div class="sec-line"></div>
+    <h2 class="sec-title">Estudios</h2>
+  </div>
+  <div class="edu-grid">
+    <div class="edu-card">
+      <div class="edu-icon">🎓</div>
+      <div class="edu-period">2022 — Presente</div>
+      <div class="edu-degree">Ingeniería en Sistemas de Información</div>
+      <div class="edu-institution">Universidad Tecnológica Nacional · Córdoba</div>
+    </div>
+    <div class="edu-card">
+      <div class="edu-icon">💻</div>
+      <div class="edu-period">2023</div>
+      <div class="edu-degree">Desarrollo Web Full Stack</div>
+      <div class="edu-institution">Coderhouse · Certificación</div>
+    </div>
+    <div class="edu-card">
+      <div class="edu-icon">⚛️</div>
+      <div class="edu-period">2024</div>
+      <div class="edu-degree">React: De cero a experto</div>
+      <div class="edu-institution">Udemy · Fernando Herrera</div>
+    </div>
+    <div class="edu-card">
+      <div class="edu-icon">🇬🇧</div>
+      <div class="edu-period">2022</div>
+      <div class="edu-degree">Inglés nivel B2</div>
+      <div class="edu-institution">Cambridge Assessment · Certificación oficial</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p class="footer-copy">© 2025 — Hecho con <span>♥</span> desde Córdoba</p>
+  <div class="socials">
+    <a href="https://github.com/tu-usuario" target="_blank" title="GitHub">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+      </svg>
+    </a>
+    <a href="https://linkedin.com/in/tu-usuario" target="_blank" title="LinkedIn">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/>
+        <circle cx="4" cy="4" r="2"/>
+      </svg>
+    </a>
+    <a href="mailto:tu@email.com" title="Email">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+        <polyline points="22,6 12,13 2,6"/>
+      </svg>
+    </a>
+  </div>
+</footer>
+
+<script>
+  // ── Cursor personalizado
+  const cursor = document.getElementById('cursor');
+  document.addEventListener('mousemove', e => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top  = e.clientY + 'px';
+  });
+  document.querySelectorAll('a, button, label, .proj-card, .stat-card, .tech-item, .edu-card, .photo-inner').forEach(el => {
+    el.addEventListener('mouseenter', () => cursor.classList.add('big'));
+    el.addEventListener('mouseleave', () => cursor.classList.remove('big'));
+  });
+
+  // ── Scroll reveal
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) setTimeout(() => e.target.classList.add('visible'), i * 75);
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.tl-item, .proj-card, .tech-item, .edu-card').forEach(el => obs.observe(el));
+
+  // ── Foto de perfil
+  const photoInput  = document.getElementById('photoInput');
+  const profileImg  = document.getElementById('profileImg');
+  const placeholder = document.getElementById('photoPlaceholder');
+  document.getElementById('photoTrigger').addEventListener('click', () => photoInput.click());
+  photoInput.addEventListener('change', e => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = ev => {
+      profileImg.src = ev.target.result;
+      profileImg.style.display = 'block';
+      placeholder.style.display = 'none';
+    };
+    reader.readAsDataURL(file);
+  });
+
+  // ── CV: subir y descargar
+  const cvInput       = document.getElementById('cvInput');
+  const cvDownloadBtn = document.getElementById('cvDownloadBtn');
+  const cvFileName    = document.getElementById('cvFileName');
+  let cvURL = null, cvName = 'CV.pdf';
+
+  cvInput.addEventListener('change', e => {
+    const file = e.target.files[0];
+    if (!file) return;
+    if (cvURL) URL.revokeObjectURL(cvURL);
+    cvURL  = URL.createObjectURL(file);
+    cvName = file.name;
+    cvFileName.textContent = '✓ ' + file.name;
+    cvDownloadBtn.disabled = false;
+  });
+
+  cvDownloadBtn.addEventListener('click', () => {
+    if (!cvURL) return;
+    const a = document.createElement('a');
+    a.href = cvURL;
+    a.download = cvName;
+    a.click();
+  });
+</script>
+
+</body>
+</html>
