@@ -140,4 +140,4 @@ Este proyecto es de uso personal. Si lo usás como base, ¡un crédito siempre s
 
 ---
 
-<p align="center">Hecho con ♥ desde Córdoba · © 2025 Lucas Ruiz</p>
+<p align="center">© 2025 Lucas Ruiz</p>
