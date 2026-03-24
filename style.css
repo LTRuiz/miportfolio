@@ -6,10 +6,10 @@
 }
 
 :root {
-  --orange:      #E8784A;
-  --orange-lt:   #F0A07A;
-  --orange-dim:  rgba(232, 120, 74, 0.12);
-  --orange-glow: rgba(232, 120, 74, 0.22);
+  --orange:      #C0392B;
+  --orange-lt:   #E05A4E;
+  --orange-dim:  rgba(192, 57, 43, 0.12);
+  --orange-glow: rgba(192, 57, 43, 0.28);
   --bg:          #0D0D0D;
   --bg2:         #141414;
   --bg3:         #1A1A1A;
@@ -279,7 +279,7 @@ section {
   width: 480px;
   height: 480px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(232, 120, 74, .14) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(192, 57, 43, .16) 0%, transparent 70%);
   filter: blur(60px);
   pointer-events: none;
   animation: bpulse 7s ease-in-out infinite;
@@ -315,7 +315,7 @@ section {
   position: absolute;
   inset: -8px;
   border-radius: 50%;
-  border: 1px solid rgba(232, 120, 74, .2);
+  border: 1px solid rgba(192, 57, 43, .2);
   animation: spin 14s linear infinite;
 }
 
@@ -605,7 +605,7 @@ section {
   display: inline-block;
   padding: 3px 10px;
   background: var(--orange-dim);
-  border: 1px solid rgba(232, 120, 74, .22);
+  border: 1px solid rgba(192, 57, 43, .22);
   border-radius: 999px;
   font-size: .71rem;
   color: var(--orange-lt);
@@ -779,10 +779,10 @@ section {
 }
 
 /* Thumb backgrounds */
-.t1 { background: linear-gradient(135deg, #1a1008, #3d2210); }
+.t1 { background: linear-gradient(135deg, #1a0808, #3d1010); }
 .t2 { background: linear-gradient(135deg, #0d1a18, #0d3028); }
 .t3 { background: linear-gradient(135deg, #100d1a, #1e0d38); }
-.t4 { background: linear-gradient(135deg, #0a1520, #0d2a40); }
+.t4 { background: linear-gradient(135deg, #1a0a0a, #400d0d); }
 
 /* ── Tecnologías ── */
 .tech-grid {
