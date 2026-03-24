@@ -97,17 +97,17 @@ Cards de formación académica, certificaciones e idiomas.
 
 ```css
 :root {
-  --orange:      #E8784A;   /* Color principal */
-  --orange-lt:   #F0A07A;   /* Naranja claro (hover) */
-  --bg:          #0D0D0D;   /* Fondo principal */
-  --bg2:         #141414;   /* Fondo secundario */
-  --bg3:         #1A1A1A;   /* Fondo terciario */
-  --text:        #F0EDE8;   /* Texto principal */
-  --muted:       #888074;   /* Texto secundario */
+  --principal: #C0392B;   /* Color principal */
+  --principal-lt: #E05A4E;   /* Principal claro (hover) */
+  --bg: #0D0D0D;   /* Fondo principal */
+  --bg2: #141414;   /* Fondo secundario */
+  --bg3: #1A1A1A;   /* Fondo terciario */
+  --text: #F0EDE8;   /* Texto principal */
+  --muted: #888074;   /* Texto secundario */
 }
 ```
 
-Para cambiar el color de acento, simplemente modificá `--orange` y `--orange-lt`.
+Para cambiar el color de acento, simplemente modificá `--principal` y `--principal-lt`.
 
 ---
 
