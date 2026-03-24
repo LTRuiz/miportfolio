@@ -1,6 +1,6 @@
 # 🚀 Portfolio — Lucas Ruiz
 
-> Portfolio personal desarrollado con **HTML, CSS y JavaScript vanilla**. Diseñado desde cero con un estilo oscuro, moderno y minimalista.
+> Portfolio personal desarrollado con **HTML y CSS**. Diseñado desde cero con un estilo oscuro, moderno y minimalista.
 
 ---
 
