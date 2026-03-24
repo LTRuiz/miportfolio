@@ -12,7 +12,7 @@
 
 ## ✨ Características
 
-- **Diseño dark** con paleta naranja como color de acento
+- **Diseño dark** con paleta en rojo como color de acento
 - **Cursor personalizado** animado con efecto hover
 - **Animaciones de entrada** con Intersection Observer (scroll reveal)
 - **Foto de perfil circular** con anillo animado rotatorio
