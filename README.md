@@ -1,6 +1,6 @@
 # 🚀 Portfolio — Lucas Ruiz
 
-> Portfolio personal desarrollado con **HTML, CSS y JavaScript vanilla**. Diseñado desde cero con un estilo oscuro, moderno y minimalista.
+> Portfolio personal desarrollado con **HTML, CSS y JavaScript**. Diseñado desde cero con un estilo oscuro, moderno y minimalista.
 
 ---
 
@@ -12,7 +12,7 @@
 
 ## ✨ Características
 
-- **Diseño dark** con paleta naranja como color de acento
+- **Diseño dark** con paleta en rojo como color de acento
 - **Cursor personalizado** animado con efecto hover
 - **Animaciones de entrada** con Intersection Observer (scroll reveal)
 - **Foto de perfil circular** con anillo animado rotatorio
@@ -20,7 +20,7 @@
 - **Secciones completas:** Sobre mí · Experiencia · Proyectos · Tecnologías · Estudios
 - **100% Responsive** — adaptado para mobile y desktop
 - **Efecto grain** sutil en el fondo para textura visual
-- **Scrollbar personalizada** en naranja
+- **Scrollbar personalizada** en rojo
 
 ---
 
@@ -140,4 +140,4 @@ Este proyecto es de uso personal. Si lo usás como base, ¡un crédito siempre s
 
 ---
 
-<p align="center">Hecho con ♥ desde Córdoba · © 2025 Lucas Ruiz</p>
+<p align="center">© 2025 Lucas Ruiz</p>
