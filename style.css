@@ -618,7 +618,7 @@ section {
   border-left: 2px solid var(--principal);
   border-radius: 0 var(--radius) var(--radius) 0;
   padding: 16px 20px;
-  margin-top: 32px;
+  margin-bottom: 40px;
   font-size: .87rem;
   color: var(--muted);
   font-weight: 300;
