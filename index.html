@@ -15,7 +15,14 @@
 <!-- NAV -->
 <nav>
   <div class="nav-logo">Mi<span>Portfolio</span></div>
-  <ul>
+
+  <button class="nav-hamburger" id="navToggle" aria-label="Menú">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <ul id="navMenu">
     <li><a href="#about">Sobre mí</a></li>
     <li><a href="#experience">Experiencia</a></li>
     <li><a href="#projects">Proyectos</a></li>
@@ -27,7 +34,6 @@
 <!-- HERO -->
 <section id="hero">
   <div class="hero-blob"></div>
-
   <div class="hero-content">
     <p class="hero-eyebrow">Desarrollador Web y Estudiante de Ingeniería</p>
     <h1 class="hero-title">
@@ -44,8 +50,6 @@
       <a href="#about" class="btn btn-outline">Sobre mí</a>
     </div>
   </div>
-
-  <!-- FOTO DE PERFIL -->
   <div class="hero-photo-wrap">
     <div class="photo-ring">
       <div class="photo-inner">
@@ -62,7 +66,7 @@
     <p>Descargá mi CV para conocer más sobre mi experiencia y estudios.</p>
   </div>
   <div class="cv-actions">
-    <a href="assets/LucasRuiz_Desarrollador_CV_2026.pdf" download class="btn btn-primary">
+    <a href="assets/DesarrolladorCvLucasRuiz2026.pdf" download class="btn btn-primary">
       <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
         <polyline points="7 10 12 15 17 10"/>
@@ -88,11 +92,11 @@
     </div>
     <div class="about-stats">
       <div class="stat-card">
-        <div class="stat-val">2+</div>
+        <div class="stat-val">3+</div>
         <div class="stat-label">Años aprendiendo</div>
       </div>
       <div class="stat-card">
-        <div class="stat-val">5</div>
+        <div class="stat-val">5+</div>
         <div class="stat-label">Proyectos propios</div>
       </div>
       <div class="stat-card">
@@ -107,60 +111,19 @@
   </div>
 </section>
 
-<!-- EXPERIENCE -->
-<section id="experience">
-  <div class="sec-header">
-    <span class="sec-num">02</span>
-    <div class="sec-line"></div>
-    <h2 class="sec-title">Experiencia</h2>
-  </div>
-  <div class="timeline">
-
-    <div class="tl-item">
-      <div class="tl-period">2026</div>
-      <div class="tl-role">Desarrollador Freelance</div>
-      <div class="tl-company">Proyecto personal · Independiente</div>
-      <p class="tl-desc">Solución integral desarrollada en Streamlit para la automatización de agendas. Permite a negocios locales gestionar sus turnos de forma digital, eliminando la carga administrativa manual y mejorando la experiencia del cliente con una interfaz intuitiva y adaptable.</p>
-      <span class="tag">Python</span>
-      <span class="tag">Streamlit</span>
-      <span class="tag">APIs</span>
-    </div>
-
-    <div class="tl-item">
-      <div class="tl-period">2025 — Presente</div>
-      <div class="tl-role">Desarrollador Freelance</div>
-      <div class="tl-company">Proyectos personales · Independiente</div>
-      <p class="tl-desc">Desarrollo de sitios web para pequeños emprendimientos del entorno cercano. Diseño, maquetado y despliegue de páginas estáticas y dinámicas.</p>
-      <span class="tag">HTML/CSS</span>
-      <span class="tag">JavaScript</span>
-      <span class="tag">React</span>
-    </div>
-
-    <div class="tl-item">
-      <div class="tl-period">2023 - 2024</div>
-      <div class="tl-role">Desarrollador Web</div>
-      <div class="tl-company">Empresa · Q10 Sports</div>
-      <p class="tl-desc">Desarrollo y mantenimiento de la plataforma web de Q10 Sports (Agencia de Representación), enfocada en la exposición digital de futbolistas profesionales mediante HTML y CSS.</p>
-      <span class="tag">GitHub</span>
-      <span class="tag">HTML/CSS</span>
-    </div>
-
-  </div>
-  <div class="exp-note">
-    <strong>Estoy comenzando mi camino profesional.</strong> Si bien mi experiencia formal es limitada,
-    compenso con proyectos personales, aprendizaje constante y mucha motivación.
-    Los proyectos presentados a continuación hablan mejor que cualquier cargo en un CV.
-  </div>
-</section>
-
 <!-- PROJECTS -->
 <section id="projects">
   <div class="sec-header">
-    <span class="sec-num">03</span>
+    <span class="sec-num">02</span>
     <div class="sec-line"></div>
     <h2 class="sec-title">Proyectos</h2>
   </div>
   <div class="projects-grid">
+    <div class="exp-note">
+      <strong>Estoy comenzando mi camino profesional.</strong> Si bien mi experiencia formal es limitada,
+      compenso con proyectos personales, aprendizaje constante y mucha motivación.
+      Los proyectos presentados a continuación hablan mejor que cualquier cargo en un CV.
+    </div>
 
     <div class="proj-card">
       <div class="proj-thumb">
@@ -191,7 +154,7 @@
 
     <div class="proj-card">
       <div class="proj-thumb">
-        <img src="assets/proyect5.jpg" alt="Preview Proyecto Uno"/>
+        <img src="assets/proyect5.jpg" alt="Preview Proyecto Dos"/>
       </div>
       <div class="proj-body">
         <div class="proj-title">App Comida Rápida</div>
@@ -215,11 +178,10 @@
         </div>
       </div>
     </div>
- 
+
     <div class="proj-card">
       <div class="proj-thumb" style="position:relative">
-        <img src="assets/proyecto1.jpg" alt="Preview Proyecto Dos"/>
-        <!-- <span class="proj-badge">WIP</span> -->
+        <img src="assets/proyecto1.jpg" alt="Preview Proyecto Tres"/>
       </div>
       <div class="proj-body">
         <div class="proj-title">Ecommerce de Mates</div>
@@ -227,7 +189,7 @@
         <div class="proj-tags">
           <span class="tag">HTML5</span>
           <span class="tag">CSS3</span>
-          <span class="tag">JavaScrip(ES6+)</span>
+          <span class="tag">JavaScript (ES6+)</span>
           <span class="tag">Local Storage</span>
         </div>
         <div class="proj-links">
@@ -242,10 +204,10 @@
         </div>
       </div>
     </div>
- 
+
     <div class="proj-card">
       <div class="proj-thumb">
-        <img src="assets/proyec3.jpg" alt="Preview Proyecto Tres"/>
+        <img src="assets/proyec3.jpg" alt="Preview Proyecto Cuatro"/>
       </div>
       <div class="proj-body">
         <div class="proj-title">Web Empresa Q10</div>
@@ -267,10 +229,10 @@
         </div>
       </div>
     </div>
-    
+
     <div class="proj-card">
       <div class="proj-thumb">
-        <img src="assets/proyecto5.jpg" alt="Preview Portfolio"/>
+        <img src="assets/proyecto5.jpg" alt="Preview Sistema Estudio"/>
       </div>
       <div class="proj-body">
         <div class="proj-title">Sistema de Estudio Semanal</div>
@@ -319,81 +281,159 @@
 <!-- TECH -->
 <section id="tech">
   <div class="sec-header">
-    <span class="sec-num">04</span>
+    <span class="sec-num">03</span>
     <div class="sec-line"></div>
     <h2 class="sec-title">Tecnologías</h2>
   </div>
-  <div class="tech-grid">
-    <div class="tech-item" style="--pct:90%">
-      <div class="tech-icon">
-        <img src="assets/tech/html.png" alt="HTML5 Icon">
+
+  <!-- Frontend -->
+  <div class="category-block">
+    <p class="category-label">Frontend</p>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <div class="tech-row">
+          <span class="tech-dot" style="background:#DF5B4F"></span>
+          <span class="tech-name">Estado global</span>
+        </div>
+        <div class="tech-desc">Zustand, flujo asíncrono, middleware, optimización</div>
       </div>
-      <div class="tech-name">HTML5</div>
-      <div class="tech-level"><div class="tech-level-bar"></div></div>
-    </div>
-    <div class="tech-item" style="--pct:90%">
-      <div class="tech-icon">
-        <img src="assets/tech/css-3.png" alt="HTML5 Icon">
+      <div class="tech-card">
+        <div class="tech-row">
+          <span class="tech-dot" style="background:#61DAFB"></span>
+          <span class="tech-name">React</span>
+        </div>
+        <div class="tech-desc">Hooks, Context, rendimiento, componentes reutilizables</div>
       </div>
-      <div class="tech-name">CSS3</div>
-      <div class="tech-level"><div class="tech-level-bar"></div></div>
-    </div>
-    <div class="tech-item" style="--pct:90%">
-      <div class="tech-icon">
-        <img src="assets/tech/js.png" alt="HTML5 Icon">
+      <div class="tech-card">
+        <div class="tech-row">
+          <span class="tech-dot" style="background:#aaa"></span>
+          <span class="tech-name">Next.js</span>
+        </div>
+        <div class="tech-desc">SSR, SSG, App Router, rutas dinámicas</div>
       </div>
-      <div class="tech-name">JavaScrip</div>
-      <div class="tech-level"><div class="tech-level-bar"></div></div>
-    </div>
-    <div class="tech-item" style="--pct:90%">
-      <div class="tech-icon">
-        <img src="assets/tech/react.svg" class="react-icon" alt="HTML5 Icon">
+      <div class="tech-card">
+        <div class="tech-row">
+          <span class="tech-dot" style="background:#3178C6"></span>
+          <span class="tech-name">TypeScript</span>
+        </div>
+        <div class="tech-desc">Tipado estático, interfaces, generics</div>
       </div>
-      <div class="tech-name">React</div>
-      <div class="tech-level"><div class="tech-level-bar"></div></div>
-    </div>
-    <div class="tech-item" style="--pct:90%">
-      <div class="tech-icon">
-        <img src="assets/tech/nextdotjs.svg" class="next-icon" alt="HTML5 Icon">
+      <div class="tech-card">
+        <div class="tech-row">
+          <span class="tech-dot" style="background:#F0DB4F"></span>
+          <span class="tech-name">JavaScript</span>
+        </div>
+        <div class="tech-desc">ES6+, patrones async, event loop, closures</div>
       </div>
-      <div class="tech-name">Next.js</div>
-      <div class="tech-level"><div class="tech-level-bar"></div></div>
-    </div>
-    <div class="tech-item" style="--pct:90%">
-      <div class="tech-icon">
-        <img src="assets/tech/typescript.svg" class="typescript-icon" alt="HTML5 Icon">
+      <div class="tech-card">
+        <div class="tech-row">
+          <span class="tech-dot" style="background:#264DE4"></span>
+          <span class="tech-name">CSS3</span>
+        </div>
+        <div class="tech-desc">Flexbox, Grid, responsive, animaciones, arquitectura BEM</div>
       </div>
-      <div class="tech-name">TypeScript</div>
-      <div class="tech-level"><div class="tech-level-bar"></div></div>
-    </div>
-    <div class="tech-item" style="--pct:90%">
-      <div class="tech-icon">
-        <img src="assets/tech/python.svg" class="python-icon" alt="HTML5 Icon">
+      <div class="tech-card">
+        <div class="tech-row">
+          <span class="tech-dot" style="background:#E85427"></span>
+          <span class="tech-name">HTML5</span>
+        </div>
+        <div class="tech-desc">Semántica, accesibilidad, SEO</div>
       </div>
-      <div class="tech-name">Python</div>
-      <div class="tech-level"><div class="tech-level-bar"></div></div>
     </div>
-    <div class="tech-item" style="--pct:90%">
-      <div class="tech-icon">
-        <img src="assets/tech/docker.svg" class="docker-icon" alt="HTML5 Icon">
+  </div>
+
+  <!-- Backend & Lenguajes -->
+  <div class="category-block">
+    <p class="category-label">Backend &amp; Lenguajes</p>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <div class="tech-row">
+          <span class="tech-dot" style="background:#51C801"></span>
+          <span class="tech-name">Node.js</span>
+        </div>
+        <div class="tech-desc">Express, middlewares, auth</div>
       </div>
-      <div class="tech-name">Docker</div>
-      <div class="tech-level"><div class="tech-level-bar"></div></div>
-    </div>
-    <div class="tech-item" style="--pct:90%">
-      <div class="tech-icon">
-        <img src="assets/tech/linux.svg" class="linux-icon" alt="HTML5 Icon">
+      <div class="tech-card">
+        <div class="tech-row">
+          <span class="tech-dot" style="background:#3776AB"></span>
+          <span class="tech-name">Python</span>
+        </div>
+        <div class="tech-desc">Scripting, APIs, automatización</div>
       </div>
-      <div class="tech-name">Linux</div>
-      <div class="tech-level"><div class="tech-level-bar"></div></div>
-    </div>
-    <div class="tech-item" style="--pct:90%">
-      <div class="tech-icon">
-        <img src="assets/tech/haskell.svg" class="haskell-icon" alt="HTML5 Icon">
+      <div class="tech-card">
+        <div class="tech-row">
+          <span class="tech-dot" style="background:#4CAF82"></span>
+          <span class="tech-name">APIs REST</span>
+        </div>
+        <div class="tech-desc">Diseño, consumo, autenticación</div>
       </div>
-      <div class="tech-name">Haskell</div>
-      <div class="tech-level"><div class="tech-level-bar"></div></div>
     </div>
+  </div>
+
+  <!-- Herramientas & DevOps -->
+  <div class="category-block">
+    <p class="category-label">Herramientas &amp; DevOps</p>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <div class="tech-row">
+          <span class="tech-dot" style="background:#F05032"></span>
+          <span class="tech-name">Git</span>
+        </div>
+        <div class="tech-desc">Branching, PRs, conflictos</div>
+      </div>
+      <div class="tech-card">
+        <div class="tech-row">
+          <span class="tech-dot" style="background:#2496ED"></span>
+          <span class="tech-name">Docker</span>
+        </div>
+        <div class="tech-desc">Contenedores, compose, imágenes</div>
+      </div>
+      <div class="tech-card">
+        <div class="tech-row">
+          <span class="tech-dot" style="background:#aaa"></span>
+          <span class="tech-name">Linux</span>
+        </div>
+        <div class="tech-desc">CLI, bash, administración básica</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="sec-header">
+    <span class="sec-num">04</span>
+    <div class="sec-line"></div>
+    <h2 class="sec-title">Experiencia</h2>
+  </div>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-period">2026</div>
+      <div class="tl-role">Desarrollador Freelance</div>
+      <div class="tl-company">Proyecto personal · Independiente</div>
+      <p class="tl-desc">Solución integral desarrollada en Streamlit para la automatización de agendas. Permite a negocios locales gestionar sus turnos de forma digital, eliminando la carga administrativa manual y mejorando la experiencia del cliente con una interfaz intuitiva y adaptable.</p>
+      <span class="tag">Python</span>
+      <span class="tag">Streamlit</span>
+      <span class="tag">APIs</span>
+    </div>
+    <div class="tl-item">
+      <div class="tl-period">2025 — Presente</div>
+      <div class="tl-role">Desarrollador Freelance</div>
+      <div class="tl-company">Proyectos personales · Independiente</div>
+      <p class="tl-desc">Desarrollo de sitios web para pequeños emprendimientos del entorno cercano. Diseño, maquetado y despliegue de páginas estáticas y dinámicas.</p>
+      <span class="tag">HTML/CSS</span>
+      <span class="tag">JavaScript</span>
+      <span class="tag">React</span>
+    </div>
+    <div class="tl-item">
+      <div class="tl-period">2023 - 2024</div>
+      <div class="tl-role">Desarrollador Web</div>
+      <div class="tl-company">Empresa · Q10 Sports</div>
+      <p class="tl-desc">Desarrollo y mantenimiento de la plataforma web de Q10 Sports (Agencia de Representación), enfocada en la exposición digital de futbolistas profesionales mediante HTML y CSS.</p>
+      <span class="tag">GitHub</span>
+      <span class="tag">HTML/CSS</span>
+    </div>
+  </div>
 </section>
 
 <!-- EDUCATION -->
@@ -406,15 +446,15 @@
   <div class="edu-grid">
     <div class="edu-card">
       <div class="edu-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-device-laptop"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 19l18 0" /><path d="M5 7a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1l0 -8" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 19l18 0"/><path d="M5 7a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1l0 -8"/></svg>
       </div>
       <div class="edu-period">2024</div>
-      <div class="edu-degree">Desarrollo Web (HTML - CSS - JavaScrip)</div>
+      <div class="edu-degree">Desarrollo Web (HTML · CSS · JavaScript)</div>
       <div class="edu-institution">Coderhouse · Certificación</div>
     </div>
     <div class="edu-card">
       <div class="edu-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-react-native"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M6.357 9c-2.637 .68 -4.357 1.845 -4.357 3.175c0 2.107 4.405 3.825 9.85 3.825c.74 0 1.26 -.039 1.95 -.097" /><path d="M9.837 15.9c-.413 -.596 -.806 -1.133 -1.18 -1.8c-2.751 -4.9 -3.488 -9.77 -1.63 -10.873c1.15 -.697 3.047 .253 4.974 2.254" /><path d="M6.429 15.387c-.702 2.688 -.56 4.716 .56 5.395c1.783 1.08 5.387 -1.958 8.043 -6.804c.36 -.67 .683 -1.329 .968 -1.978" /><path d="M12 18.52c1.928 2 3.817 2.95 4.978 2.253c1.85 -1.102 1.121 -5.972 -1.633 -10.873c-.384 -.677 -.777 -1.204 -1.18 -1.8" /><path d="M17.66 15c2.612 -.687 4.34 -1.85 4.34 -3.176c0 -2.11 -4.408 -3.824 -9.845 -3.824c-.747 0 -1.266 .029 -1.955 .087" /><path d="M8 12c.285 -.66 .607 -1.308 .968 -1.978c2.647 -4.844 6.253 -7.89 8.046 -6.801c1.11 .679 1.262 2.706 .56 5.393" /><path d="M12.26 12.015h-.01c-.01 .13 -.12 .24 -.26 .24a.263 .263 0 0 1 -.25 -.26c0 -.14 .11 -.25 .24 -.25h-.01c.13 -.01 .25 .11 .25 .24" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6.357 9c-2.637 .68 -4.357 1.845 -4.357 3.175c0 2.107 4.405 3.825 9.85 3.825c.74 0 1.26 -.039 1.95 -.097"/><path d="M9.837 15.9c-.413 -.596 -.806 -1.133 -1.18 -1.8c-2.751 -4.9 -3.488 -9.77 -1.63 -10.873c1.15 -.697 3.047 .253 4.974 2.254"/><path d="M6.429 15.387c-.702 2.688 -.56 4.716 .56 5.395c1.783 1.08 5.387 -1.958 8.043 -6.804c.36 -.67 .683 -1.329 .968 -1.978"/><path d="M12 18.52c1.928 2 3.817 2.95 4.978 2.253c1.85 -1.102 1.121 -5.972 -1.633 -10.873c-.384 -.677 -.777 -1.204 -1.18 -1.8"/><path d="M17.66 15c2.612 -.687 4.34 -1.85 4.34 -3.176c0 -2.11 -4.408 -3.824 -9.845 -3.824c-.747 0 -1.266 .029 -1.955 .087"/><path d="M8 12c.285 -.66 .607 -1.308 .968 -1.978c2.647 -4.844 6.253 -7.89 8.046 -6.801c1.11 .679 1.262 2.706 .56 5.393"/><path d="M12.26 12.015h-.01c-.01 .13 -.12 .24 -.26 .24a.263 .263 0 0 1 -.25 -.26c0 -.14 .11 -.25 .24 -.25h-.01c.13 -.01 .25 .11 .25 .24"/></svg>
       </div>
       <div class="edu-period">2024</div>
       <div class="edu-degree">React</div>
@@ -422,19 +462,19 @@
     </div>
     <div class="edu-card">
       <div class="edu-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-python"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 9h-7a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3" /><path d="M12 15h7a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-3" /><path d="M8 9v-4a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2h-4a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4" /><path d="M11 6l0 .01" /><path d="M13 18l0 .01" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 9h-7a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3"/><path d="M12 15h7a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-3"/><path d="M8 9v-4a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2h-4a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4"/><path d="M11 6l0 .01"/><path d="M13 18l0 .01"/></svg>
       </div>
       <div class="edu-period">2022</div>
       <div class="edu-degree">Python</div>
-      <div class="edu-institution">Universidad Tecnológica Nacional · Factulad Regional de Córdoba</div>
+      <div class="edu-institution">Universidad Tecnológica Nacional · Facultad Regional de Córdoba</div>
     </div>
     <div class="edu-card">
       <div class="edu-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-file-certificate"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M5 8v-3a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-5" /><path d="M3 14a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M4.5 17l-1.5 5l3 -1.5l3 1.5l-1.5 -5" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M5 8v-3a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-5"/><path d="M3 14a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"/><path d="M4.5 17l-1.5 5l3 -1.5l3 1.5l-1.5 -5"/></svg>
       </div>
       <div class="edu-period">2022 — Presente</div>
       <div class="edu-degree">Ingeniería en Sistemas de Información</div>
-      <div class="edu-institution">Universidad Tecnológica Nacional · Factulad Regional de Córdoba</div>
+      <div class="edu-institution">Universidad Tecnológica Nacional · Facultad Regional de Córdoba</div>
     </div>
   </div>
 </section>
@@ -454,7 +494,7 @@
         <circle cx="4" cy="4" r="2"/>
       </svg>
     </a>
-    <a href="lucasruizserre13@gmail.com" title="Email">
+    <a href="mailto:lucasruizserre13@gmail.com" title="Email">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
         <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
         <polyline points="22,6 12,13 2,6"/>
@@ -464,13 +504,49 @@
 </footer>
 
 <script>
+  // ── Hamburger nav
+  const navToggle = document.getElementById('navToggle');
+  const navMenu   = document.getElementById('navMenu');
+
+  navToggle.addEventListener('click', () => {
+    navToggle.classList.toggle('open');
+    navMenu.classList.toggle('open');
+  });
+
+  // Cerrar al hacer click en un link
+  navMenu.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      navToggle.classList.remove('open');
+      navMenu.classList.remove('open');
+    });
+  });
+
+  // ── Nav activo en scroll
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('nav ul a');
+
+  const sectionObs = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href') === '#' + entry.target.id) {
+            link.classList.add('active');
+          }
+        });
+      }
+    });
+  }, { threshold: 0.4 });
+
+  sections.forEach(s => sectionObs.observe(s));
+
   // ── Cursor personalizado
   const cursor = document.getElementById('cursor');
   document.addEventListener('mousemove', e => {
     cursor.style.left = e.clientX + 'px';
     cursor.style.top  = e.clientY + 'px';
   });
-  document.querySelectorAll('a, button, label, .proj-card, .stat-card, .tech-item, .edu-card, .photo-inner').forEach(el => {
+  document.querySelectorAll('a, button, label, .proj-card, .stat-card, .tech-card, .edu-card, .photo-inner').forEach(el => {
     el.addEventListener('mouseenter', () => cursor.classList.add('big'));
     el.addEventListener('mouseleave', () => cursor.classList.remove('big'));
   });
@@ -481,48 +557,20 @@
       if (e.isIntersecting) setTimeout(() => e.target.classList.add('visible'), i * 75);
     });
   }, { threshold: 0.1 });
-  document.querySelectorAll('.tl-item, .proj-card, .tech-item, .edu-card').forEach(el => obs.observe(el));
+  document.querySelectorAll('.tl-item, .proj-card, .tech-card, .edu-card').forEach(el => obs.observe(el));
 
-  // ── Foto de perfil
-  const photoInput  = document.getElementById('photoInput');
-  const profileImg  = document.getElementById('profileImg');
-  const placeholder = document.getElementById('photoPlaceholder');
-  document.getElementById('photoTrigger').addEventListener('click', () => photoInput.click());
-  photoInput.addEventListener('change', e => {
-    const file = e.target.files[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = ev => {
-      profileImg.src = ev.target.result;
-      profileImg.style.display = 'block';
-      placeholder.style.display = 'none';
-    };
-    reader.readAsDataURL(file);
-  });
-
-  // ── CV: subir y descargar
-  const cvInput       = document.getElementById('cvInput');
-  const cvDownloadBtn = document.getElementById('cvDownloadBtn');
-  const cvFileName    = document.getElementById('cvFileName');
-  let cvURL = null, cvName = 'CV.pdf';
-
-  cvInput.addEventListener('change', e => {
-    const file = e.target.files[0];
-    if (!file) return;
-    if (cvURL) URL.revokeObjectURL(cvURL);
-    cvURL  = URL.createObjectURL(file);
-    cvName = file.name;
-    cvFileName.textContent = '✓ ' + file.name;
-    cvDownloadBtn.disabled = false;
-  });
-
-  cvDownloadBtn.addEventListener('click', () => {
-    if (!cvURL) return;
-    const a = document.createElement('a');
-    a.href = cvURL;
-    a.download = cvName;
-    a.click();
-  });
+  // ── Animación barras de nivel al hacer scroll
+  const barObs = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.querySelectorAll('.level-bar').forEach(bar => {
+          bar.style.width = bar.dataset.pct + '%';
+        });
+        barObs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+  document.querySelectorAll('.category-block').forEach(block => barObs.observe(block));
 </script>
 
 </body>
